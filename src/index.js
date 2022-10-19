@@ -45,6 +45,7 @@ import {
       };
     } catch (error) {
       console.log("Error fetching books and movies", error);
+      return error;
     }
   }
   
@@ -62,7 +63,6 @@ import {
     })
     .catch(error => {
       console.error("Error in getBooksAndMoviesAsync execution", error);
-      throw error;
     });
   
   getBooksOrMoviesAsync()
