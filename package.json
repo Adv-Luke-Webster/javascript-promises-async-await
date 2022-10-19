@@ -47,5 +47,8 @@
     "@babel/compat-data": "~7.9.0",
     "@babel/core": "~7.9.0",
     "lodash": "^4.17.15"
-  }
+  },
+  "resolutions": { 
+  "@babel/preset-env": "7.5.5" 
+}
 }
