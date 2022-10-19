@@ -62,8 +62,8 @@ getBooksAndMoviesAsync()
 getBooksOrMoviesAsync()
 .then(results => {
     console.log("movies or books", {
-        results,
-    });
+        results
+    })
 });
 
 
